@@ -4,7 +4,7 @@ SIH project: an ESP32-based smart drying chamber for home-based agarbatti manufa
 
 ## Features
 
-- Temperature and humidity monitoring using DHT22
+- Temperature and humidity monitoring using    SHT31
 - Independent temperature monitoring using DS18B20
 - Smoke/gas warning using MQ-2 analog output
 - Automatic PTC heater control through a 5 V relay module
