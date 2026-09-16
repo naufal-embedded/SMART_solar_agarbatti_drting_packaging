@@ -1,0 +1,8 @@
+Device,Pin,ESP32 GPIO,Power,Notes
+SHT31,VIN/VCC,,3.3V,Sensor supply
+SHT31,GND,,GND,Common ground
+SHT31,SDA,21,3.3V,I2C data
+SHT31,SCL,22,3.3V,I2C clock
+MQ-2,AO,34,5V module,ADC input; condition voltage if needed
+Heater relay,IN,16,5V module,Active-low assumed
+Fan MOSFET,Gate,17,3.3V signal,220 ohm series and 10k pulldown
